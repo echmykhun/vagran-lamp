@@ -1,0 +1,6 @@
+[Sun Aug 02 10:51:18.335235 2015] [authz_core:error] [pid 6156] [client 10.0.2.2:57593] AH01630: client denied by server configuration: /vagrant/
+[Sun Aug 02 10:55:01.553100 2015] [authz_core:error] [pid 6252] [client 10.0.2.2:57637] AH01630: client denied by server configuration: /vagrant/
+[Sun Aug 02 10:55:04.461893 2015] [authz_core:error] [pid 6252] [client 10.0.2.2:57637] AH01630: client denied by server configuration: /vagrant/
+[Sun Aug 02 11:02:40.473012 2015] [authz_core:error] [pid 6382] [client 10.0.2.2:57708] AH01630: client denied by server configuration: /vagrant/
+[Sun Aug 02 11:02:41.722723 2015] [authz_core:error] [pid 6382] [client 10.0.2.2:57708] AH01630: client denied by server configuration: /vagrant/
+[Sun Aug 02 11:06:57.329569 2015] [authz_core:error] [pid 6380] [client 10.0.2.2:57729] AH01630: client denied by server configuration: /vagrant/

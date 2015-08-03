@@ -1,0 +1,15 @@
+<VirtualHost *:80>
+  ServerAdmin test@localhost
+  ServerName test.localhost
+  DocumentRoot /vagrant
+  <Directory /vagrant>
+    #Options FollowSymLinks
+    Options Indexes FollowSymLinks Includes ExecCGI
+    AllowOverride All
+    Order deny,allow
+    Allow from all
+    Require all granted
+  </Directory>
+  ErrorLog /vagrant/apache-log/error.log
+  CustomLog /vagrant/apache-log/access.log combined
+</VirtualHost>
